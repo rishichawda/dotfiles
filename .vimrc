@@ -13,6 +13,10 @@ Plugin 'VundleVim/Vundle.vim'
 " Dracula theme
 Plugin 'dracula/vim'
 
+" Vim Airline ( git-repostory : https://github.com/vim-airline/vim-airline )
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -23,6 +27,9 @@ filetype plugin indent on    " required
 " Enable dracula theme
 syntax on
 color dracula
+
+" Enable minimalist theme for airline
+let g:airline_theme='minimalist'
 
 " Set background to match terminal background
 hi Normal ctermbg=none
