@@ -31,6 +31,12 @@ color dracula
 " Enable minimalist theme for airline
 let g:airline_theme='minimalist'
 
+" Add arrows to status line
+let g:airline_right_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep= ''
+let g:airline_left_sep = ''
+
 " Set background to match terminal background
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
