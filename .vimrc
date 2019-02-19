@@ -17,6 +17,10 @@ Plugin 'dracula/vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" YouCompleteMe ( git-repository: https://github.com/Valloric/YouCompleteMe )
+" Currently compiled with inbuilt js and ts support from tss server, not from tern server
+Plugin 'Valloric/YouCompleteMe'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
