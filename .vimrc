@@ -25,6 +25,9 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
+" Ale for linting, completion, jump to definition, etc
+Plugin 'w0rp/ale'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -61,3 +64,13 @@ let g:airline_left_sep = ''
 
 " Map Ctrl+d to :sh. Now Ctrl+d in vim will toggle between shell and vim.
 noremap <C-d> :sh<cr>
+
+" Configure Ale
+" Configure highlight / lint error pointers to be less distracting
+let g:ale_sign_error = '●' " Less aggressive than the default '>>'
+let g:ale_sign_warning = '.'
+let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
+" Set colors to warning
+highlight ALEWarning ctermbg=209
+" Set linting on save
+let g:ale_fix_on_save = 1
