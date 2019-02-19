@@ -17,6 +17,10 @@ Plugin 'dracula/vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" YouCompleteMe ( git-repository: https://github.com/Valloric/YouCompleteMe )
+" Currently compiled with inbuilt js and ts support from tss server, not from tern server
+Plugin 'Valloric/YouCompleteMe'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -28,6 +32,13 @@ filetype plugin indent on    " required
 syntax on
 color dracula
 
+" Set background to match terminal background
+hi Normal ctermbg=none
+highlight NonText ctermbg=none
+
+" Display line numbers
+set number
+
 " Enable minimalist theme for airline
 let g:airline_theme='minimalist'
 
@@ -36,7 +47,3 @@ let g:airline_right_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_left_alt_sep= ''
 let g:airline_left_sep = ''
-
-" Set background to match terminal background
-hi Normal ctermbg=none
-highlight NonText ctermbg=none
