@@ -12,7 +12,7 @@ Personal vim configuration.
   *YCM requires you to have the latest MacVim installed. I use the Vim binary from MacVim under vim's alias, to avoid the GUI stuff and to avoid overwriting the system vim - because I feel that's a better way to do it.*
 * [Vim JSX](https://github.com/mxw/vim-jsx) for JSX highlighting and indenting.
   *Simply installing it doesn't quite highlight the tags as you would expect, so I added a little config to it. You can also change the colors if you like.*
-* [Ale]((https://github.com/w0rp/ale)) for linting, autocompletion, jump to definitions, etc.
+* [Ale](https://github.com/w0rp/ale) for linting, autocompletion, jump to definitions, etc.
   *Configured for less distracting highlights for errors and warning. Also, auto fixes lint errors on save.*
 -----
   Hotkeys  | Description |
