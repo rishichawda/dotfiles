@@ -1,3 +1,5 @@
+##### _⚠️CAUTION⚠️ : Not a fan of customizing a lot, so probably might not be worth reading._
+
 ## vimrc
 
 Personal vim configuration. 
@@ -18,3 +20,15 @@ Personal vim configuration.
   Hotkeys  | Description |
   -----    | ------
   `Ctrl+d` | Switch to a shell in the `pwd` of vim. Pressing `Ctrl+d` again will take you back to vim. |
+
+## oh-my-zsh
+
+[Spaceship](https://github.com/denysdovhan/spaceship-prompt) prompt with following plugins : 
+
+* git 
+* zsh-autosuggestions 
+* node 
+* bundler 
+* osx 
+* python 
+* zsh-syntax-highlighting
